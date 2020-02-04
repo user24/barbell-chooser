@@ -117,7 +117,7 @@
     "diameter": 28,
     "centreKnurl": true,
     "knurlMarks": "iwf",
-    "knurlDepth": "hard",
+    "knurlDepth": "light",
     "psi": 220,
     "finishes": "Chrome",
     "bearings": "Bronze bushings & 4 bearings",
