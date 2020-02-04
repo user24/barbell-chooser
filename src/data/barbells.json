@@ -110,6 +110,7 @@
     "warrantyMonths": 6
   },
   "Extreme Fitness Silverback": {
+    "active": false,
     "url": "https://www.extremefitness.co.uk/the-silverback-barbell",
     "image": "silverback.png",
     "price": 153,
@@ -167,6 +168,7 @@
     "warrantyMonths": 6
   },
   "Extreme Fitness Tiger Bar": {
+    "active": false,
     "url": "https://www.strengthshop.co.uk/weights-bars/bars/olympic-bars/strengthshop-bastard-bar-with-centre-knurling.html",
     "image": "tiger.png",
     "price": 180,

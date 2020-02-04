@@ -18,6 +18,7 @@ const KNURL_DEPTHS = {
 };
 
 const _Barbell = {
+  active: true,
   name: '',
   url: UNKNOWN_BARBELL_FIELD,
   image: UNKNOWN_BARBELL_FIELD,

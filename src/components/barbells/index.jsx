@@ -2,13 +2,14 @@ import React, { Fragment, PureComponent } from 'react';
 import barbells from '../../models/Barbells';
 import BarbellRow from './barbellRow';
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import Filters from '../filters';
 
 class Barbells extends PureComponent {
 
   constructor(props) {
     super(props);
 
-    const bars = [...barbells].sort((barA, barB) => {
+    const bars = [...barbells].filter(bar => bar.active).sort((barA, barB) => {
       const sortField = 'psi';
       if (barA[sortField] === barB[sortField]) {
         return barA.name > barB.name ? 1 : -1;
