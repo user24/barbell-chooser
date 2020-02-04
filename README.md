@@ -1,3 +1,7 @@
+## Barbell Chooser
+
+Comparison Chart of UK-available Olympic barbells. Live demo here: [https://user24.github.io/barbell-chooser](Barbell Chooser)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
