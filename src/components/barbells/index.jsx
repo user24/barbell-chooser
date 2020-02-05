@@ -3,6 +3,7 @@ import barbells from '../../models/Barbells';
 import { UNKNOWN_BARBELL_FIELD } from '../../models/Barbells/barbell';
 import BarbellRow from './barbellRow';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './bars.scss';
 // import Filters from '../filters';
 
 class Barbells extends PureComponent {
@@ -18,19 +19,18 @@ class Barbells extends PureComponent {
 
   setSortProp = (sortProp) => {
 
-    const state = {};
-    state.sortProp = this.state.sortProp;
-    state.sortAsc = this.state.sortAsc;
+    const newState = {};
+    newState.sortProp = sortProp;
+    newState.sortAsc = this.state.sortAsc;
 
-    if (this.state.sortProp === sortProp) {
+    if (this.state.sortProp === newState.sortProp) {
       // Toggle sort direction if setting sortProp to what it already is.
-      state.sortAsc = !this.state.sortAsc;
+      newState.sortAsc = !this.state.sortAsc;
     } else {
-      state.sortAsc = true;
+      newState.sortAsc = true;
     }
 
-    state.sortProp = sortProp;
-    this.setState(state);
+    this.setState(newState);
   };
 
   sortBars = () => {
@@ -56,22 +56,22 @@ class Barbells extends PureComponent {
     return <Fragment>
       <h1>Barbell Comparison Chart</h1>
       <div>Mostly powerlifting barbells at present, but will eventually expand the list to include everything I can find.</div>
-      <table className='table table-striped'>
+      <table className='barbell-table table table-striped'>
         <thead>
           <tr>
             <th></th>
-            <th onClick={() => this.setSortProp("name")}>Name</th>
-            <th onClick={() => this.setSortProp("price")}>Price</th>
-            <th onClick={() => this.setSortProp("diameter")}>Diameter</th>
-            <th onClick={() => this.setSortProp("psi")}>PSI / kg rating</th>
-            <th onClick={() => this.setSortProp("knurlDepth")}>Knurl</th>
-            <th onClick={() => this.setSortProp("centreKnurl")}>Centre Knurl?</th>
-            <th onClick={() => this.setSortProp("knurlMarks")}>Marks</th>
-            <th onClick={() => this.setSortProp("bearings")}>Bearings</th>
-            <th onClick={() => this.setSortProp("sleeves")}>Sleeves</th>
-            <th onClick={() => this.setSortProp("finishes")}>Finishes</th>
-            <th onClick={() => this.setSortProp("warrantyMonths")}>Warranty</th>
-            <th onClick={() => this.setSortProp("notes")}>Notes</th>
+            <th><span className='header-trigger' onClick={() => this.setSortProp("name")}>Name</span></th>
+            <th><span className='header-trigger' onClick={() => this.setSortProp("price")}>Price</span></th>
+            <th><span className='header-trigger' onClick={() => this.setSortProp("diameter")}>Diameter</span></th>
+            <th><span className='header-trigger' onClick={() => this.setSortProp("psi")}>PSI / kg rating</span></th>
+            <th><span className='header-trigger' onClick={() => this.setSortProp("knurlDepth")}>Knurl</span></th>
+            <th><span className='header-trigger' onClick={() => this.setSortProp("centreKnurl")}>Centre Knurl?</span></th>
+            <th><span className='header-trigger' onClick={() => this.setSortProp("knurlMarks")}>Marks</span></th>
+            <th><span className='header-trigger' onClick={() => this.setSortProp("bearings")}>Bearings</span></th>
+            <th><span className='header-trigger' onClick={() => this.setSortProp("sleeves")}>Sleeves</span></th>
+            <th><span className='header-trigger' onClick={() => this.setSortProp("finishes")}>Finishes</span></th>
+            <th><span className='header-trigger' onClick={() => this.setSortProp("warrantyMonths")}>Warranty</span></th>
+            <th><span className='header-trigger' onClick={() => this.setSortProp("notes")}>Notes</span></th>
           </tr>
         </thead>
         <tbody>
