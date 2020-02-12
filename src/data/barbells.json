@@ -124,21 +124,6 @@
     "sleeves": "bolted",
     "warrantyMonths": 6
   },
-  "Extreme Fitness Silverback": {
-    "url": "https://www.extremefitness.co.uk/the-silverback-barbell",
-    "image": "silverback.png",
-    "price": 153,
-    "diameter": 28,
-    "centreKnurl": true,
-    "knurlMarks": "iwf",
-    "knurlDepth": "light",
-    "psi": 220,
-    "finishes": "Chrome",
-    "bearings": "Bronze bushings & 4 bearings",
-    "sleeves": "snap ring",
-    "warrantyMonths": 12,
-    "notes": "I had this bar but the knurl was too light for my taste. Price includes EXTREME10 10% discount."
-  },
   "ATX Eco Power Bar": {
     "url": "https://www.thegymrevolution.co.uk/index.php/atx-economy-power-bar.html",
     "image": "atxeco.png",
