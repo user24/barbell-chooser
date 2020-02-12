@@ -78,7 +78,7 @@ class Barbells extends PureComponent {
             </span></th>
             <th><span className='header-trigger' onClick={() => this.setSortProp("knurlDepth")}>
               <span className='header'>Knurl</span><br />
-              Matter of personal preference
+              Matter of personal preference although if you're pulling huge weight then more aggressive is better, and if you're doing olympic lifts at high reps then lighter is better.
             </span></th>
             <th><span className='header-trigger' onClick={() => this.setSortProp("centreKnurl")}>
               <span className='header'>Centre Knurl?</span><br />
@@ -99,7 +99,7 @@ class Barbells extends PureComponent {
             <th><span className='header-trigger' onClick={() => this.setSortProp("finishes")}>
               <span className='header'>Finishes</span><br />
               Determines how rust and wear resistant the bar is.<br />
-              From worse to better: bare steel -> black oxide -> Cerakote -> Chrome -> Zinc
+              From worse to better: bare steel -> black oxide -> Cerakote -> Zinc -> Chrome
             </span></th>
             <th><span className='header-trigger' onClick={() => this.setSortProp("warrantyMonths")}>
               <span className='header'>Warranty</span>
