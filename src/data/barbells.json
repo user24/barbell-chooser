@@ -1,4 +1,19 @@
 {
+  "Extreme Fitness Tiger Power Bar Pro ": {
+    "url": "https://www.extremefitness.co.uk/the-tiger-power-bar",
+    "image": "silverback.png",
+    "price": 225,
+    "diameter": 29,
+    "centreKnurl": true,
+    "knurlMarks": "IPF",
+    "knurlDepth": "aggressive",
+    "psi": 216,
+    "finishes": "Chrome",
+    "bearings": "Bronze Bushings. v. low spin",
+    "sleeves": "snap ring",
+    "notes": "I have this bar and it is excellent. Price includes EXTREME10 10% discount.",
+    "warrantyMonths": 12
+  },
   "Again Faster Weight Training Barbell": {
     "url": "https://againfaster.eu/en_gb/weightlifting-bars-plates/barbells/again-faster-weight-training-barbell.html",
     "image": "again.png",
@@ -110,7 +125,6 @@
     "warrantyMonths": 6
   },
   "Extreme Fitness Silverback": {
-    "active": false,
     "url": "https://www.extremefitness.co.uk/the-silverback-barbell",
     "image": "silverback.png",
     "price": 153,
@@ -123,7 +137,7 @@
     "bearings": "Bronze bushings & 4 bearings",
     "sleeves": "snap ring",
     "warrantyMonths": 12,
-    "notes": "Price includes EXTREME10 10% discount."
+    "notes": "I had this bar but the knurl was too light for my taste. Price includes EXTREME10 10% discount."
   },
   "ATX Eco Power Bar": {
     "url": "https://www.thegymrevolution.co.uk/index.php/atx-economy-power-bar.html",
