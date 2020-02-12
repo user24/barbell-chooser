@@ -49,7 +49,7 @@
     "diameter": 29,
     "centreKnurl": true,
     "knurlMarks": "ipf",
-    "knurlDepth": "hard",
+    "knurlDepth": "aggressive",
     "psi": 211,
     "finishes": "Chrome",
     "bearings": "Needle Bearings",

@@ -55,23 +55,58 @@ class Barbells extends PureComponent {
     const bars = this.sortBars();
     return <Fragment>
       <h1>Barbell Comparison Chart</h1>
-      <div>Mostly powerlifting barbells at present, but will eventually expand the list to include everything I can find.</div>
+      <div>
+        Mostly powerlifting barbells at present, but will eventually expand the list to include everything I can find.<br />
+      </div>
       <table className='barbell-table table table-striped'>
         <thead>
           <tr>
             <th></th>
-            <th><span className='header-trigger' onClick={() => this.setSortProp("name")}>Name</span></th>
-            <th><span className='header-trigger' onClick={() => this.setSortProp("price")}>Price</span></th>
-            <th><span className='header-trigger' onClick={() => this.setSortProp("diameter")}>Diameter</span></th>
-            <th><span className='header-trigger' onClick={() => this.setSortProp("psi")}>PSI / kg rating</span></th>
-            <th><span className='header-trigger' onClick={() => this.setSortProp("knurlDepth")}>Knurl</span></th>
-            <th><span className='header-trigger' onClick={() => this.setSortProp("centreKnurl")}>Centre Knurl?</span></th>
-            <th><span className='header-trigger' onClick={() => this.setSortProp("knurlMarks")}>Marks</span></th>
-            <th><span className='header-trigger' onClick={() => this.setSortProp("bearings")}>Bearings</span></th>
-            <th><span className='header-trigger' onClick={() => this.setSortProp("sleeves")}>Sleeves</span></th>
-            <th><span className='header-trigger' onClick={() => this.setSortProp("finishes")}>Finishes</span></th>
-            <th><span className='header-trigger' onClick={() => this.setSortProp("warrantyMonths")}>Warranty</span></th>
-            <th><span className='header-trigger' onClick={() => this.setSortProp("notes")}>Notes</span></th>
+            <th><span className='header-trigger' onClick={() => this.setSortProp("name")}>
+              <span className='header'>Name</span>
+            </span></th>
+            <th><span className='header-trigger' onClick={() => this.setSortProp("price")}>
+              <span className='header'>Price</span>
+            </span></th>
+            <th><span className='header-trigger' onClick={() => this.setSortProp("diameter")}>
+              <span className='header'>Diameter</span><br />
+              28mm is standard. Thicker bars are designed for powerlifting.
+            </span></th>
+            <th><span className='header-trigger' onClick={() => this.setSortProp("psi")}>
+              <span className='header'>PSI / kg rating</span><br />
+              The higher PSI the stronger &amp; stiffer the bar. Ideal general range 190-220 according to Rogue.
+            </span></th>
+            <th><span className='header-trigger' onClick={() => this.setSortProp("knurlDepth")}>
+              <span className='header'>Knurl</span><br />
+              Matter of personal preference
+            </span></th>
+            <th><span className='header-trigger' onClick={() => this.setSortProp("centreKnurl")}>
+              <span className='header'>Centre Knurl?</span><br />
+              Supposed to be good for squats and bad for cleans.
+            </span></th>
+            <th><span className='header-trigger' onClick={() => this.setSortProp("knurlMarks")}>
+              <span className='header'>Marks</span><br />
+              IPF=81cm between marks, IWF=91cm. You usually want IPF or Dual.
+            </span></th>
+            <th><span className='header-trigger' onClick={() => this.setSortProp("bearings")}>
+              <span className='header'>Bearings</span><br />
+              Determines how fast the sleeves spin. Faster is better for Olympic, Slower is better on bench press. From fast to slow: needle, ball, bushing.
+            </span></th>
+            <th><span className='header-trigger' onClick={() => this.setSortProp("sleeves")}>
+              <span className='header'>Sleeves</span><br />
+              Snap ring attachment is more durable. Bolted sleeves work loose over time.
+            </span></th>
+            <th><span className='header-trigger' onClick={() => this.setSortProp("finishes")}>
+              <span className='header'>Finishes</span><br />
+              Determines how rust and wear resistant the bar is.<br />
+              From worse to better: bare steel->black oxide->Cerakote->Chrome->Zinc
+            </span></th>
+            <th><span className='header-trigger' onClick={() => this.setSortProp("warrantyMonths")}>
+              <span className='header'>Warranty</span>
+            </span></th>
+            <th><span className='header-trigger' onClick={() => this.setSortProp("notes")}>
+              <span className='header'>Notes</span>
+            </span></th>
           </tr>
         </thead>
         <tbody>
