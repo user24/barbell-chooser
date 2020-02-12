@@ -99,7 +99,7 @@ class Barbells extends PureComponent {
             <th><span className='header-trigger' onClick={() => this.setSortProp("finishes")}>
               <span className='header'>Finishes</span><br />
               Determines how rust and wear resistant the bar is.<br />
-              From worse to better: bare steel->black oxide->Cerakote->Chrome->Zinc
+              From worse to better: bare steel -> black oxide -> Cerakote -> Chrome -> Zinc
             </span></th>
             <th><span className='header-trigger' onClick={() => this.setSortProp("warrantyMonths")}>
               <span className='header'>Warranty</span>
