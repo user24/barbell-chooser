@@ -1,6 +1,10 @@
 ## Barbell Chooser
 
-Comparison Chart of UK-available Olympic barbells. Live demo here: [Barbell Chooser](https://user24.github.io/barbell-chooser)
+Comparison Chart of UK-available Olympic barbells - mostly with a powerlifting focus, around the £100-250 budget point.
+
+## Demo
+
+Live demo here: [Barbell Chooser](https://user24.github.io/barbell-chooser)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
