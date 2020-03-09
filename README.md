@@ -6,6 +6,8 @@ Comparison Chart of UK-available Olympic barbells - mostly with a powerlifting f
 
 Live demo here: [Barbell Chooser](https://user24.github.io/barbell-chooser)
 
+## Create React App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
